@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1781542343 source:d:\cse 1205 assignment\unorderedmultimap 02\main.cpp
+	<iostream>
+	<unordered_map>
+	<unordered_set>
+	<string>
+
