@@ -1,39 +1,3 @@
-/*
-    You are given a social media dataset containing usernames and the hashtags they follow.
-    The dataset is implemented using an unordered_multimap<string, string>, where:
-
-    Key = Username (string)
-    Value = Hashtag (string)
-
-    Insert the following data:
-
-    UserA -> #coding
-    UserA -> #music
-    UserA -> #ai
-    UserB -> #travel
-    UserB -> #food
-    UserC -> #coding
-    UserC -> #gaming
-    UserC -> #ai
-    UserD -> #music
-    UserD -> #travel
-
-    Tasks to Implement
-    1. Print Users by Hashtag:
-        Find and print all unique usernames that follow the hashtag #coding.
-
-    2. Find Intersections:
-        Identify and display all users who follow BOTH #coding and #ai.
-
-    3. Find Common Interests:
-        Find and print all pairs of users that share at least one common hashtag
-        (Avoid duplicate pairs, e.g., if UserA and UserB is printed, UserB and UserA should not be printed).
-
-    4. Remove Duplicate Hashtags:
-        Write a function removeDuplicateHashtags that takes a username and the social multimap.
-        Then removes any duplicate hashtag entries for that specific user, ensuring each hashtag is unique for them.
-*/
-
 #include <iostream>
 #include <unordered_map>
 #include <unordered_set>
